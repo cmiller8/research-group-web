@@ -3,11 +3,11 @@
 
 all: build
 
-BIBBLE = bibble
+# BIBBLE = bibble
 
-_includes/pubs.html: bib/pubs.bib bib/publications.tmpl
-	mkdir -p _includes
-	$(BIBBLE) $+ > $@
+# _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
+# 	mkdir -p _includes
+# 	$(BIBBLE) $+ > $@
 
 build: _includes/pubs.html
 	jekyll build
@@ -20,8 +20,8 @@ SERVE_PORT ?= 5000
 serve: _includes/pubs.html
 	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST)
 
-clean:
-	$(RM) -r _site _includes/pubs.html
+# clean:
+# 	$(RM) -r _site _includes/pubs.html
 
 DEPLOY_HOST ?= yourwebpage.com
 DEPLOY_PATH ?= www/
