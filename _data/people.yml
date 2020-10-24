@@ -15,6 +15,22 @@ mario:
     image: 
     bio: PostDoc
 
+martin:
+    display_name: "Martin Mosteiro"
+    webpage: 
+    github:
+    role: postdoc
+    image: 
+    bio: PostDoc
+
+miguel:
+    display_name: "Miguel Martin"
+    webpage: 
+    github:
+    role: postdoc
+    image: 
+    bio: PostDoc
+
 # grad students
 matias:
     display_name: "Matias Quintana"
@@ -46,8 +62,8 @@ irvin:
 
 julien:
     display_name: "Julien LePrince"
-    webpage: ""
-    github: ""
+    webpage: 
+    github: 
     image:
     role: grad
 

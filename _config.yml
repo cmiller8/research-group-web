@@ -1,5 +1,5 @@
 name: BUDSLab
-url: http://cmiller8.github.io/research-group-web/ # TODO: replace with proper github-pages URL
+url: https://cmiller8.github.io/research-group-web/ # TODO: replace with proper github-pages URL
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
